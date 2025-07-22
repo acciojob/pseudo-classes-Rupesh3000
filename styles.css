@@ -1,23 +1,26 @@
 /*  your css code here. If applicable */
+ :root {
+      --page-bg: rgb(135, 206, 235);
+    }
 
-        :root {
-            background-color: rgb(135, 206, 235);
-            margin: 0;
-            padding: 0;
-        }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--page-bg);
+    }
 
-        .para p:first-child {
-            color: white;
-            background-color: black;
-        }
+    article p:first-child {
+      color: white;
+      background-color: black;
+    }
 
-        .para p:nth-child(2) {
-            color: black;
-        }
+    article p:nth-child(2) {
+      color: initial;
+    }
 
-        .para p:last-child {
-            color: red;
-        }
+    article p:last-child {
+      color: red;
+    }
 
         li {
             width: 50%;
